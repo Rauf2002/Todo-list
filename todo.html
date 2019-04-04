@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./todo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <div style="width:40%;margin: auto">
+                    <div class="row" style="margin-top:8rem">
+                        <div class="col-12">
+                            <div class=" py-3 mb-4 title text-white">
+                                <h2 class="text-white text-center">My Todo List</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-12 bg-white">
+                            <ul class="py-3 ul" id="ul">
+                            </ul>
+                        </div>
+                        <div class="col-12 button d-flex justify-content-center">
+                            <button type="button" class="btn btn-lg addButton" >+ New Task</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="input-group input-group-lg">
+                                <input type="text" class="form-control input" aria-label="Sizing example input"
+                                    aria-describedby="inputGroup-sizing-lg" placeholder="Add new task" autofocus>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./todo.js"></script>
+</body>
+
+</html>

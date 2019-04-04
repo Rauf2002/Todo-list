@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(227, 233, 255 )
+}
+.title {
+    border-radius: 3px;
+    background-color: rgb(175, 126, 235)
+}
+li {
+   list-style-type:circle ; 
+   position: relative;
+}
+.button {
+    position: relative;
+    top: -25px
+}
+button {
+    background-color: rgb(175, 126, 235) !important;
+    color: white !important;
+    border-radius: 80px !important;
+    padding: 15px
+
+}
+button:focus {
+    outline: none !important;
+    box-shadow: none !important
+}
+input {
+    text-indent: 5px;
+}
+.list {
+    font-size: 25px !important;
+    color: rgb(139, 152, 187)
+}
+input:focus {
+    box-shadow: 0 0 0 0.2rem rgba(175,126,235,.25) !important;
+    outline: 0 !important
+}
+i {
+    color:rgb(139, 152, 187)
+}
+.remove {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.removeBtn {
+    font-size: 20px;
+    background-color: transparent !important;
+    border:none !important;
+    outline: none !important;
+}
